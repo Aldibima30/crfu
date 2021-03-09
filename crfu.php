@@ -7,13 +7,14 @@ echo "
 |Career Resume FileUpload|
 |________________________|
 |TahPetis KediriBlackHat |
-| tahup62@gmail.com | Crfu Brute\n\n";
+|   tahup62@gmail.com    |      
+ _________________________ \n\n";
 $pat = array("/document/","/documents/","/pdf/","/pdfs/","/cv/","/cvs/",
 "/CV/","/CVS/","/resume/","/resumes/",
 "/upload/","/uploads/","/uploaded/","/uploadify/","/dock/","/docks/",
 "/dokumen/","/career/","/simpandokumen/","/UPLOAD/","/UPLOADS/","/UPLOADED/",
 "/data/","/data_file/","/data_upload/");
-echo "Masukin webnya: ";
+echo "Tergantung Face:v : ";
 $wb = trim(fgets(STDIN));
 foreach($pat as $path) {
 $c3k = get_headers($wb.$path);
