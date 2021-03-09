@@ -11,7 +11,7 @@ echo "
  _________________________ \n\n";
 $pat = array("/document/","/documents/","/pdf/","/pdfs/","/cv/","/cvs/",
 "/CV/","/CVS/","/resume/","/resumes/",
-"/upload/","/uploads/","/uploaded/","/uploadify/","/dock/","/docks/",
+"/upload/","/uploads/","/uploaded/","/uploadify/","/docx/","/docxs/",
 "/dokumen/","/career/","/simpandokumen/","/UPLOAD/","/UPLOADS/","/UPLOADED/",
 "/data/","/data_file/","/data_upload/");
 echo "Tergantung Face:v : ";
